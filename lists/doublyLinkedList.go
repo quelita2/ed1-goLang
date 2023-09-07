@@ -26,23 +26,19 @@ func (list *DoublyLinkedList) Add(value int) {
 
 	if list.head == nil {
 		// add o nov nó como sendo o primeiro e ultimo, já que é o unico
-
 		list.head = &newNode
 		list.tail = &newNode
-
 	} else {
 		// direciona até o último elemento e aponta para o novo nó, enquanto que o novo nó aponta para o novo penúltimo nó
-
 		aux := list.tail
 		aux.next = &newNode
 		newNode.prev = aux
 	}
-
 	list.inserted++
 }
 
 func (list *DoublyLinkedList) AddAtIndex(index int, value int) {
-	// verifica se o incide é valido
+	// verifica se o indice é valido
 	if index >= 0 && index <= list.inserted {
 		newNode := Node{nil, value, nil}
 
