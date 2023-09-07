@@ -63,7 +63,6 @@ func (list *DoublyLinkedList) AddAtIndex(index int, value int) {
 				newNode.next.prev = &newNode
 			}
 		}
-
 		list.inserted++
 	}
 }
