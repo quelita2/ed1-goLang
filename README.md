@@ -1,4 +1,4 @@
-# Algoritmos e Estruturas de Dados 1
+# Algoritmos e Estruturas de Dados I (AED I)
 
 <p>Este repositório é dedicado ao estudo dos conteúdos de Algoritmos e Estrutura de Dados 1 (AED1), do curso de Engenharia da Computação, na UFRN. </p> 
 
