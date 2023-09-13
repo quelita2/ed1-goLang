@@ -5,13 +5,17 @@
 <h3>Conteúdos do curso:</h3>
 <ol>
   <li>Listas:</li>
+
+  >Listas são coleções de elementos de um mesmo tipo.
   <ul> 
     <li> Array List
     <li> Linked List
     <li> DoubleLinkedLists
   </ul>
   
-  <li>Pilhas</li>
+  <li>Pilhas:</li>
+
+  >Pilhas são listas com restrições, é possível perceber que nós podemos reaproveitar o código de ArrayList e modificá-lo para que ele incorpore as restrições de pilhas.
 
   <li>Filas</li>
 
