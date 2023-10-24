@@ -3,7 +3,7 @@
 | Algoritmos de Ordenação | Complexidade de Tempo | 
 |-------------------------|------------------------|
 | Selection Sort | Pior caso: O(n^2)<br>Melhor caso: Ω(n^2)|
-| Bubble Sort | Pior caso: O(n^2)<br>Melhor caso: Ω(n^2)|
+| Bubble Sort | Pior caso: O(n^2)<br>Melhor caso: Ω(n)|
 | Insertion Sort | Pior caso: O(n^2)<br>Melhor caso: Ω(n)|
 | Merge Sort | Pior caso: O(nlogn)<br>Melhor caso: Ω(nlogn)|
 
